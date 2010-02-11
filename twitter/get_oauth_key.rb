@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'twitter'
-require 'pp'
-require 'keys_develop'
+require 'keys_develop' # this file defines CONSUMER_KEY and CONSUMER_SECRET
 
 oauth = Twitter::OAuth.new(CONSUMER_KEY, CONSUMER_SECRET)
 request_token = oauth.request_token
